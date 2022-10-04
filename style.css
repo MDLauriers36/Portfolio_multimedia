@@ -202,7 +202,7 @@ nav,
 
 .dark-theme body,
 .dark-theme section {
-  background-image: linear-gradient(to right, #212738, #000000);
+  background-image: linear-gradient(to right, rgb(17 75 95), rgb(28 29 37));
   transition: 300ms background-image ease;
 }
 
