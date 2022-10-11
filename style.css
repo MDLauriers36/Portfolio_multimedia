@@ -144,7 +144,9 @@ textarea:focus {
 }
 
 .orange {
-  color: #C6D4FF;
+  color: #0d2038;
+  
+  
 }
 
 .link__hover-effect {
@@ -202,7 +204,7 @@ nav,
 
 .dark-theme body,
 .dark-theme section {
-  background-image: linear-gradient(to right, rgb(17 75 95), rgb(28 29 37));
+  background-image: linear-gradient(to right, #284B63, #010e16);
   transition: 300ms background-image ease;
 }
 
