@@ -131,6 +131,13 @@ textarea:focus {
 .click:hover {
   transform: scale(1.1);
 }
+.orange.click{
+  cursor: pointer;
+}
+.orange.click:hover{
+  transition: all 300ms ease;
+  transform: scaleZ(1.5);
+}
 
 .click:active {
   transform: scale(0.8);
