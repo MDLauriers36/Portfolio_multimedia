@@ -70,11 +70,11 @@ button {
   cursor: pointer;
 }
 
-section {
+/* section {
   background-image: linear-gradient(to left, #18deba, #185ede);
   transition: background-image 3s linear;
 
-}
+} */
 
 input,
 textarea {
@@ -201,12 +201,41 @@ nav,
   color: white;
 
 }
-
-.dark-theme body,
-.dark-theme section {
-  background-image: linear-gradient(to right, #284B63, #010e16);
-  transition: 300ms background-image ease;
+.dark-theme .project__wrapper{
+  box-shadow: 0 20px 80px 0 rgba(160, 149, 149, 0.45);
 }
+
+
+/* .dark-theme section {
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+} */
+
+body{
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #1781b3, #07a744);
+  background-size: 300% 300%;
+  animation: gradient 10s ease infinite;
+}
+
+.dark-theme {
+  background: linear-gradient(-45deg, #e0e0e0, #2b6b68, #5c08a1, #12640f);
+  background-size: 300% 300%;
+  animation: gradient 10s ease-in-out infinite;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
 
 .dark-theme .orange {
   color: #E78442;
