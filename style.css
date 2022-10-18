@@ -7,6 +7,9 @@
   font-family: 'Roboto', sans-serif;
   
 }
+#text{
+  text-decoration: none;
+}
 
 html {
   scroll-behavior: smooth;
@@ -25,7 +28,6 @@ p {
 
 a {
   text-decoration: none;
-
 }
 
 a:link {
