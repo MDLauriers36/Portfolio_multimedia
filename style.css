@@ -822,7 +822,7 @@ footer {
     font-size: 18px;
   }
 
-  .nav__link:nth-child(1) {
+  .nav__link:nth-child(2) {
     display: none;
   }
 
