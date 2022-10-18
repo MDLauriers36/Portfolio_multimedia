@@ -226,7 +226,7 @@ body{
 }
 
 .dark-theme {
-  background: linear-gradient(-45deg, #e0e0e0, #2b6b68, #5c08a1, #12640f);
+  background: linear-gradient(-45deg, #e0e0e0, #2b6b68, #6816ac, #12640f);
   background-size: 300% 300%;
   animation: gradient 10s ease-in-out infinite;
 }
