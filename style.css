@@ -25,9 +25,7 @@ p {
   font-size: 16px;
   text-decoration: none;
 }
-p.project__description--role {
-  text-decoration: none;
-}
+
 a {
   text-decoration: none;
 }
@@ -70,8 +68,9 @@ p.project__description--para {
   text-decoration: none;
   color: white;
 }
-
-
+.example{
+  border-radius: 3%;
+}
 button {
   cursor: pointer;
 }
@@ -421,7 +420,7 @@ nav {
 
 .modal__about {
   background-color: rgb(245, 245, 245);
-  transform: translateX(-110%);
+  transform: translateX(-120%);
 }
 
 .modal__languages {
@@ -580,9 +579,6 @@ nav {
   width: 100%;
   transition: all 600ms ease;
 }
-.project__width{
-  width: 100%;
-}
 
 .project__wrapper {
   position: relative;
@@ -652,6 +648,9 @@ nav {
 .project__description--para {
   margin: 16px 0;
 }
+.project__description--projects{
+  margin-top: 16px;
+}
 
 a.project__description--para{
   margin-bottom: 16px;
@@ -711,79 +710,6 @@ footer {
   color: white;
 }
 
-/* 
-
-  SHAPES
-
-  shapes on the first row 
-  height = 15vh
-  
-  shapes on the second row 
-  height = 50vh
-  
-  shapes on the third row 
-  height = 80vh
-
-  shapes on the first column
-  width = 5vw
-  
-  shapes on the second column
-  width = 50vw
-
-  shapes on the third column
-  width = 80vw
-
-*/
-.shape {
-  position: fixed;
-}
-
-.shape--0 {
-  top: 15vh;
-  left: 5vw;
-}
-
-.shape--1 {
-  top: 15vh;
-  left: 50vw;
-}
-
-.shape--2 {
-  top: 15vh;
-  left: 80vw;
-}
-
-.shape--3 {
-  top: 50vh;
-  left: 5vw;
-}
-
-.shape--4 {
-  top: 50vh;
-  left: 50vw;
-}
-
-.shape--5 {
-  top: 50vh;
-  left: 80vw;
-}
-
-.shape--6 {
-  top: 80vh;
-  left: 5vw;
-}
-
-.shape--7 {
-  top: 80vh;
-  left: 50vw;
-}
-
-.shape--8 {
-  top: 80vh;
-  left: 80vw;
-}
-
-/* ADDED AFTER TUTORIAL */
 .footer__logo--popper {
   position: absolute;
   right: 0;
@@ -817,6 +743,19 @@ footer {
   .modal__half {
     width: 100%;
   }
+  .example{
+    display: none;
+  }
+  div.modal__half.modal__about{
+    border-radius: 3%;
+    width: 80%;
+    align-items: center;
+    margin: auto;
+    
+  }
+  div.modal__half.modal__contact{
+    background-color: inherit;
+  }
 }
 
 /* Small phones */
@@ -836,6 +775,9 @@ footer {
   .project__description--para {
     display: none;
   }
+  .project__description--projects{
+    display: none;
+  }
 
   .project__description {
     left: 0;
@@ -850,5 +792,8 @@ footer {
 
   .modal__half {
     padding: 40px;
+  }
+  .example{
+    display: none;
   }
 }
