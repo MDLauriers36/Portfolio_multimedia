@@ -25,9 +25,7 @@ p {
   font-size: 16px;
   text-decoration: none;
 }
-p.project__description--role {
-  text-decoration: none;
-}
+
 a {
   text-decoration: none;
 }
@@ -280,6 +278,18 @@ body{
   min-height: 100vh;
 }
 
+.explication{
+    display: flex;
+    flex-direction: column;
+    justify-content : space-around;
+}
+.droit{
+  width: 100%;
+}
+.gauche{
+  margin-right: 8em;
+  width: 100%;
+}
 .header {
   position: absolute;
   top: 50%;
@@ -493,9 +503,6 @@ nav {
 
 }
 
-.form__item {
-  margin-bottom: 20px;
-}
 
 .form__submit {
   background-color: #f06449;
@@ -579,9 +586,6 @@ nav {
 .project__img {
   width: 100%;
   transition: all 600ms ease;
-}
-.project__width{
-  width: 100%;
 }
 
 .project__wrapper {
@@ -711,78 +715,6 @@ footer {
   color: white;
 }
 
-/* 
-
-  SHAPES
-
-  shapes on the first row 
-  height = 15vh
-  
-  shapes on the second row 
-  height = 50vh
-  
-  shapes on the third row 
-  height = 80vh
-
-  shapes on the first column
-  width = 5vw
-  
-  shapes on the second column
-  width = 50vw
-
-  shapes on the third column
-  width = 80vw
-
-*/
-.shape {
-  position: fixed;
-}
-
-.shape--0 {
-  top: 15vh;
-  left: 5vw;
-}
-
-.shape--1 {
-  top: 15vh;
-  left: 50vw;
-}
-
-.shape--2 {
-  top: 15vh;
-  left: 80vw;
-}
-
-.shape--3 {
-  top: 50vh;
-  left: 5vw;
-}
-
-.shape--4 {
-  top: 50vh;
-  left: 50vw;
-}
-
-.shape--5 {
-  top: 50vh;
-  left: 80vw;
-}
-
-.shape--6 {
-  top: 80vh;
-  left: 5vw;
-}
-
-.shape--7 {
-  top: 80vh;
-  left: 50vw;
-}
-
-.shape--8 {
-  top: 80vh;
-  left: 80vw;
-}
-
 /* ADDED AFTER TUTORIAL */
 .footer__logo--popper {
   position: absolute;
@@ -792,6 +724,42 @@ footer {
   opacity: 0;
   transition: all 300ms ease;
   color: white;
+}
+
+/* Return button */
+.bn-return {
+  background: linear-gradient(-45deg, #2b6b68, #6816ac);
+  border-radius: 40px;
+  box-sizing: border-box;
+  color: #8100a8;
+  display: block;
+  height: 50px;
+  font-size: 1.4em;
+  padding: 4px;
+  position: relative;
+  text-decoration: none;
+  width: 15em;
+  z-index: 2;
+  margin: auto;
+}
+
+.bn-return:hover {
+  color: #fff;
+}
+
+.bn-return .bn31span {
+  align-items: center;
+  background: #0e0e10;
+  border-radius: 40px;
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  transition: background 0.5s ease;
+  width: 100%;
+}
+
+.bn-return:hover .bn31span {
+  background: transparent;
 }
 
 /* Small phones, tablets, large smart phones */
