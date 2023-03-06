@@ -884,24 +884,11 @@ footer {
 }
 .carte .info h1 {
   margin: 0px;
+  overflow: hidden;
 }
 .carte .info p {
+  overflow: hidden;
   letter-spacing: 1px;
   font-size: 15px;
   margin-top: 8px;
-}
-.carte .info button {
-  padding: 0.6rem;
-  outline: none;
-  border: none;
-  border-radius: 3px;
-  background: white;
-  color: black;
-  font-weight: bold;
-  cursor: pointer;
-  transition: 0.4s ease;
-}
-.carte .info:hover {
-  background: dodgerblue;
-  color: white;
 }/*# sourceMappingURL=style.css.map */
